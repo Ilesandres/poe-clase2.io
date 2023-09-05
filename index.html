@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase2</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+       
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #9b909033;
+        }
+
+        li{
+            
+            margin-left: 15px;
+        }
+
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            float:left;
+            
+        }
+
+        li a:hover{
+            transition: 0.5s;
+            background-color: #a8a6a6;
+            border-radius: 15px;
+        }
+        ul.unmenu{
+            color: black;
+            background: none;
+        }
+
+        ol{
+            display: block;
+            list-style-type: none;
+            padding: 15px;
+        }
+        ul.menu{
+            text-align: center;
+            background-color: rgb(92, 97, 102);
+            margin-left: 40%;
+            padding: 2%;
+            width: 30%;
+            
+        }
+        ul.menu li :hover{
+            transition: 0.8s;
+            background: rgba(10, 127, 185, 0.333);
+        }
+        
+        
+        
+
+    </style>
+</head>
+<body>
+
+    <h1>listas con enlaces de menus</h1>
+    <ul>
+        <li><a href="#inicio" style="text-decoration: none; color: black;">inicio</a></li>
+        <li><a href="#salir" style="text-decoration: none; color: black;">salir</a></li>
+        <li><a href="#informacion" style="text-decoration: none; color: black;">informacion</a></li>
+        <li><a href="#contacto" style="text-decoration: none; color: black;">contacto</a></li>
+        
+    </ul>
+
+
+    <h1>unorder</h1>
+    <ul class="unmenu">
+        <li>ingenier&iacute;a en sistemas</li>
+        <li>ingenier&iacute;a civil</li>
+        <li>ingenier&iacute;a ambiental</li>
+        <li>administrac&iacute;on de empresas</li>
+      </ul>
+      <h1>order</h1>
+      <ol>
+        <li>tecnolog&iacute;a rn desarrollo de sofware</li>
+        <li>tecnolog&iacute;a en recursos forestales</li>
+        <li>Tecnolog&iacute;a en gesti&oacute;n empresarial</li>
+        <h1>lista de defnicion</h1>
+        <dl>
+            <dt>
+                sistemas 
+            </dt>
+            <dd>
+                conjunto de elemetos que interactuan con un objetivo
+            </dd>
+            <dt>
+                computador
+            </dt>
+            <dd>
+                herramienta tecnologica que permite el procesamiento de datos
+            </dd>
+            <dt>
+                telefono
+            </dt>
+            <dd>
+                equipo movil y multifuncional de un tamaño reducido y tecnologico
+            </dd>
+            <dt>
+                internet
+            </dt>
+            <dd>
+                herramienta por la cual se puede acceder a multiples variedades de contenido y comunicaciones, informacion
+            </dd>
+        </dl>
+      </ol>
+      <footer>
+        <ul class="menu">
+            <li><a class="submenu" href="#">administrac&iacute;on</a></li>
+            <li><a class="submenu" href="#"> sistemas </a></li><br><br><br><br><br><br>
+            <li><a class="submenu" href="#">forestal</a></li><br><br><br>
+            <li><a class="submenu" href="#">contaduria</a></li>
+        </ul>
+    </footer>
+      
+</body>
+</html>
